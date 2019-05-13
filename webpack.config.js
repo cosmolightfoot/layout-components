@@ -1,9 +1,10 @@
 const HtmlPlugin = require('html-webpack-plugin');
 const CleanPlugin = require('clean-webpack-plugin');
-
+//eslint-disable-next-line
 module.exports = {
   entry: './src/index.js',
   output: {
+    //eslint-disable-next-line
     path: __dirname + '/docs',
     filename: 'bundle[hash].js'
   },
